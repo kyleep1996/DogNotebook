@@ -1,0 +1,141 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'message': ['affenpinscher',\n",
+       "  'african',\n",
+       "  'airedale',\n",
+       "  'akita',\n",
+       "  'appenzeller',\n",
+       "  'basenji',\n",
+       "  'beagle',\n",
+       "  'bluetick',\n",
+       "  'borzoi',\n",
+       "  'bouvier',\n",
+       "  'boxer',\n",
+       "  'brabancon',\n",
+       "  'briard',\n",
+       "  'bulldog',\n",
+       "  'bullterrier',\n",
+       "  'cairn',\n",
+       "  'chihuahua',\n",
+       "  'chow',\n",
+       "  'clumber',\n",
+       "  'collie',\n",
+       "  'coonhound',\n",
+       "  'corgi',\n",
+       "  'dachshund',\n",
+       "  'dane',\n",
+       "  'deerhound',\n",
+       "  'dhole',\n",
+       "  'dingo',\n",
+       "  'doberman',\n",
+       "  'elkhound',\n",
+       "  'entlebucher',\n",
+       "  'eskimo',\n",
+       "  'germanshepherd',\n",
+       "  'greyhound',\n",
+       "  'groenendael',\n",
+       "  'hound',\n",
+       "  'husky',\n",
+       "  'keeshond',\n",
+       "  'kelpie',\n",
+       "  'komondor',\n",
+       "  'kuvasz',\n",
+       "  'labrador',\n",
+       "  'leonberg',\n",
+       "  'lhasa',\n",
+       "  'malamute',\n",
+       "  'malinois',\n",
+       "  'maltese',\n",
+       "  'mastiff',\n",
+       "  'mexicanhairless',\n",
+       "  'mountain',\n",
+       "  'newfoundland',\n",
+       "  'otterhound',\n",
+       "  'papillon',\n",
+       "  'pekinese',\n",
+       "  'pembroke',\n",
+       "  'pinscher',\n",
+       "  'pointer',\n",
+       "  'pomeranian',\n",
+       "  'poodle',\n",
+       "  'pug',\n",
+       "  'pyrenees',\n",
+       "  'redbone',\n",
+       "  'retriever',\n",
+       "  'ridgeback',\n",
+       "  'rottweiler',\n",
+       "  'saluki',\n",
+       "  'samoyed',\n",
+       "  'schipperke',\n",
+       "  'schnauzer',\n",
+       "  'setter',\n",
+       "  'sheepdog',\n",
+       "  'shiba',\n",
+       "  'shihtzu',\n",
+       "  'spaniel',\n",
+       "  'springer',\n",
+       "  'stbernard',\n",
+       "  'terrier',\n",
+       "  'vizsla',\n",
+       "  'weimaraner',\n",
+       "  'whippet',\n",
+       "  'wolfhound'],\n",
+       " 'status': 'success'}"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import pandas as pd \n",
+    "import requests\n",
+    "\n",
+    "r = requests.get('https://dog.ceo/api/breeds/list')\n",
+    "r.json()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "anaconda-cloud": {},
+  "kernelspec": {
+   "display_name": "Python [Root]",
+   "language": "python",
+   "name": "Python [Root]"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.5.2"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}
